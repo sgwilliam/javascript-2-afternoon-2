@@ -92,7 +92,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 let evenNums = []
 
 function evenFinder(arr){
-  for(var i = 0;i <= arr.length; i++){
+  for(i = 0;i <= arr.length; i++){
     evenOdd = arr[i] % 2
     if(evenOdd === 0){
       evenNums.push(arr[i])
